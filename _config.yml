@@ -1,0 +1,18 @@
+title: Simrit's Blog
+description: >- # this means newline insensitive in YAML
+  A blog about tech, coding, and AI.
+baseurl: "" # for user site, keep empty
+url: "https://simritdhanjal.github.io" # your GitHub Pages URL
+
+theme: minima  # simple theme, customizable
+plugins:
+  - jekyll-feed # for RSS feed
+
+markdown: kramdown
+
+# Navigation links for header
+nav_links:
+  - title: About Me
+    url: /about.html
+  - title: Blog
+    url: /blog.html
