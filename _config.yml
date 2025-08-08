@@ -13,6 +13,6 @@ markdown: kramdown
 # Navigation links for header
 nav_links:
   - title: About Me
-    url: /about.html
+    url: /
   - title: Blog
     url: /blog.html
