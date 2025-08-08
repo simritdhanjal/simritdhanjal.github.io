@@ -1,103 +1,115 @@
 /* Base styles */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f5f1e9; /* soft beige */
-    color: #2c3e33; /* dark forest green */
-  }
-  
-  /* Container */
-  main {
-    max-width: 700px;
-    margin: 40px auto;
-    padding: 30px 25px;
-    background: #ffffff; /* white card */
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(44, 62, 51, 0.15); /* subtle green shadow */
-  }
-  
-  /* Headings */
-  h1, h2, h3 {
-    color: #1b2a24; /* deeper forest green */
-    font-weight: 700;
-    margin-top: 0;
-  }
-  
-  /* Links */
-  a {
-    color: #3d7850; /* medium forest green */
-    text-decoration: none;
-    font-weight: 600;
-  }
-  
-  a:hover, a:focus {
-    text-decoration: underline;
-    color: #225032; /* darker green on hover */
-  }
-  
-  /* Navigation */
-  nav {
-    background: #2f4f4f; /* dark forest green */
-    padding: 12px 20px;
-    box-shadow: 0 2px 8px rgba(44, 62, 51, 0.3);
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 24px;
-  }
-  
-  nav ul li a {
-    color: #f5f1e9; /* beige */
-    font-weight: 600;
-    font-size: 1rem;
-  }
-  
-  nav ul li a:hover {
-    color: #a2b29f; /* light sage green */
-    text-decoration: underline;
-  }
-  
-  /* Paragraphs */
-  p {
-    line-height: 1.65;
-    margin-bottom: 1.25rem;
-  }
-  
-  /* Lists */
-  ul {
-    padding-left: 1.25rem;
-    margin-bottom: 1.25rem;
-  }
-  
-  /* Code blocks */
-  code {
-    background: #e4e2d5; /* light beige */
-    padding: 2px 5px;
-    border-radius: 4px;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 0.95em;
-  }
-  
-  /* Blockquotes */
-  blockquote {
-    border-left: 4px solid #3d7850;
-    padding-left: 1rem;
-    color: #556b59;
-    font-style: italic;
-    margin: 1rem 0;
-  }
-  
-  /* Footer (optional) */
-  footer {
-    text-align: center;
-    font-size: 0.9rem;
-    color: #556b59;
-    padding: 15px 0;
-    margin-top: 40px;
-  }
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f1e9; /* soft beige */
+  color: #2c3e33; /* dark forest green */
+}
+
+/* Navigation bar container */
+nav {
+  background-color: #2f4f4f; /* dark forest green */
+  padding: 12px 30px;
+  box-shadow: 0 2px 8px rgba(44, 62, 51, 0.3);
+  border-radius: 0 0 8px 8px;
+}
+
+/* Navigation list styles */
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: center; /* center nav items */
+  align-items: center;
+}
+
+/* Navigation link styles */
+nav ul li a {
+  color: #f5f1e9; /* beige */
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover and focus states */
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #a2b29f; /* light sage green */
+  color: #1b2a24; /* deep forest green */
+  outline: none;
+}
+
+/* Container */
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px 25px;
+  background: #ffffff; /* white card */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(44, 62, 51, 0.15); /* subtle green shadow */
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #1b2a24; /* deeper forest green */
+  font-weight: 700;
+  margin-top: 0;
+}
+
+/* Links */
+a {
+  color: #3d7850; /* medium forest green */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+  color: #225032; /* darker green on hover */
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+}
+
+/* Lists */
+ul {
+  padding-left: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Code blocks */
+code {
+  background: #e4e2d5; /* light beige */
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.95em;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #3d7850;
+  padding-left: 1rem;
+  color: #556b59;
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+/* Footer (optional) */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #556b59;
+  padding: 15px 0;
+  margin-top: 40px;
+}
