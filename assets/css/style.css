@@ -379,24 +379,20 @@ main {
 .post-footer {
   padding-top: 1.5rem;
   border-top: 1px solid #e8e4d8;
-  text-align: center;
+  text-align: left;
+  background-color: transparent;
 }
 
 .back-to-posts {
-  display: inline-block;
   color: #10af55;
   text-decoration: none;
   font-weight: 600;
-  padding: 0.5rem 1rem;
-  border: 2px solid #10af55;
-  border-radius: 6px;
-  transition: all 0.2s ease;
+  transition: color 0.2s ease;
 }
 
 .back-to-posts:hover {
-  background-color: #10af55;
-  color: #ffffff;
-  text-decoration: none;
+  color: #2d7d4f;
+  text-decoration: underline;
 }
 
 /* Links */

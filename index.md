@@ -13,11 +13,11 @@ title: About
     <h1>Hi, I'm Simrit</h1>
     
     <p class="intro">
-      Welcome to my personal corner of the web. I'm passionate about technology, artificial intelligence, and the endless possibilities of code.
+      Intro text here. Ex. "I’m a software engineer passionate about building things that matter, solving complex problems, and sharing knowledge with the community."
     </p>
     
     <p>
-      I believe in building things that matter, solving complex problems, and sharing knowledge with the community. When I'm not coding, you'll find me exploring new technologies, reading about AI advancements, or contributing to open source projects.
+      When I'm not working, you'll find me teaching, dancing, or hiking.
     </p>
     
     <p>
