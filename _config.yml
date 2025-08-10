@@ -1,6 +1,6 @@
-title: Simrit's Blog
+title: Simrit Dhanjal
 description: >- # this means newline insensitive in YAML
-  A blog about tech, coding, and AI.
+  Personal website and blog about technology, AI, and software development.
 baseurl: "" # for user site, keep empty
 url: "https://simritdhanjal.github.io" # your GitHub Pages URL
 
@@ -9,10 +9,3 @@ plugins:
   - jekyll-feed # for RSS feed
 
 markdown: kramdown
-
-# Navigation links for header
-nav_links:
-  - title: About Me
-    url: /
-  - title: Blog
-    url: /blog.html
