@@ -13,15 +13,16 @@ title: About
     <h1>Hi, I'm Simrit</h1>
     
     <p class="intro">
-      Intro text here. Ex. "I’m a software engineer passionate about building things that matter, solving complex problems, and sharing knowledge with the community."
+    I’m a software engineer with experience ranging from developing AI for SpaceX’s Starship program to leading product initiatives at early-stage startups.
     </p>
     
     <p>
+      I design intelligent systems that solve real-world challenges and empower people to work smarter. Currently, I’m a founding engineer at <a href="https://www.silvertrain.ai/">Silvertrain AI</a>.
       When I'm not working, you'll find me teaching, dancing, or hiking.
     </p>
     
     <p>
-      Feel free to connect with me on <a href="https://linkedin.com/in/simrit-dhanjal" target="_blank" rel="noopener">LinkedIn</a> or check out my <a href="/blog.html">blog</a> for thoughts on technology and development.
+      Connect with me on <a href="https://linkedin.com/in/simrit-dhanjal" target="_blank" rel="noopener">LinkedIn</a> or check out my <a href="/blog.html">blog</a> for thoughts on technology and development.
     </p>
   </div>
 </div>
