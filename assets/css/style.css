@@ -8,7 +8,7 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   line-height: 1.6;
-  color: #2c3e33;
+  color: #1a4d2e;
   background-color: #f8f6f0;
   font-size: 16px;
 }
@@ -37,13 +37,13 @@ nav {
 .nav-brand a {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #2c3e33;
+  color: #1a4d2e;
   text-decoration: none;
   letter-spacing: -0.02em;
 }
 
 .nav-brand a:hover {
-  color: #5a7c65;
+  color: #2d7d4f;
 }
 
 .nav-links {
@@ -53,14 +53,14 @@ nav {
 }
 
 .nav-links a {
-  color: #5a7c65;
+  color: #2d7d4f;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
 .nav-links a:hover {
-  color: #2c3e33;
+  color: #1a4d2e;
 }
 
 /* Main content */
@@ -71,39 +71,181 @@ main {
 }
 
 /* About page styles */
+.about-content {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.profile-picture {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #e8e4d8;
+  border: 3px solid #2d7d4f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2d7d4f;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.about-text {
+  flex: 1;
+}
+
 .about-content h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #2c3e33;
+  color: #1a4d2e;
   margin-bottom: 2rem;
   letter-spacing: -0.02em;
 }
 
 .intro {
   font-size: 1.25rem;
-  color: #5a7c65;
+  color: #2d7d4f;
   margin-bottom: 2rem;
   line-height: 1.7;
 }
 
 .about-content p {
   margin-bottom: 1.5rem;
-  color: #4a5d4f;
+  color: #2d5a3d;
   line-height: 1.7;
+}
+
+/* Teaching page styles */
+.teaching-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a4d2e;
+  margin-bottom: 2rem;
+  letter-spacing: -0.02em;
+}
+
+.teaching-intro {
+  font-size: 1.25rem;
+  color: #2d7d4f;
+  margin-bottom: 3rem;
+  line-height: 1.7;
+}
+
+.teaching-section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  border: 1px solid #e8e4d8;
+  border-radius: 8px;
+}
+
+.teaching-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a4d2e;
+  margin-bottom: 1rem;
+}
+
+.teaching-section p {
+  color: #2d5a3d;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.teaching-gallery {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  flex: 1;
+  min-width: 120px;
+}
+
+.image-placeholder {
+  width: 100%;
+  height: 120px;
+  background-color: #f0f0f0;
+  border: 2px dashed #c8d5c8;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #8a9a8a;
+  font-size: 2rem;
+}
+
+.image-placeholder small {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+  color: #8a9a8a;
+}
+
+.teaching-philosophy {
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  border: 1px solid #e8e4d8;
+  border-radius: 8px;
+}
+
+.teaching-philosophy h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a4d2e;
+  margin-bottom: 1rem;
+}
+
+.teaching-philosophy p {
+  color: #2d5a3d;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.teaching-philosophy ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.teaching-philosophy li {
+  color: #2d5a3d;
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.teaching-philosophy li:before {
+  content: "•";
+  color: #2d7d4f;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
 }
 
 /* Blog page styles */
 .blog-content h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #2c3e33;
+  color: #1a4d2e;
   margin-bottom: 1rem;
   letter-spacing: -0.02em;
 }
 
 .blog-intro {
   font-size: 1.125rem;
-  color: #5a7c65;
+  color: #2d7d4f;
   margin-bottom: 3rem;
   line-height: 1.6;
 }
@@ -111,11 +253,11 @@ main {
 .posts-list {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 1rem;
 }
 
 .post-item {
-  padding: 2rem;
+  padding: 1.5rem;
   background-color: #ffffff;
   border: 1px solid #e8e4d8;
   border-radius: 8px;
@@ -128,43 +270,40 @@ main {
 }
 
 .post-item h2 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
+  display: inline;
 }
 
 .post-item h2 a {
-  color: #2c3e33;
+  color: #1a4d2e;
   text-decoration: none;
 }
 
 .post-item h2 a:hover {
-  color: #5a7c65;
+  color: #2d7d4f;
 }
 
 .post-date {
-  display: block;
+  display: inline;
   font-size: 0.875rem;
   color: #8a9a8a;
-  margin-bottom: 1rem;
+  margin-left: 1rem;
   font-weight: 500;
-}
-
-.post-excerpt {
-  color: #4a5d4f;
-  line-height: 1.6;
-  margin: 0;
 }
 
 /* Links */
 a {
-  color: #5a7c65;
+  color: #2d7d4f;
   text-decoration: none;
   transition: color 0.2s ease;
+  font-weight: 500;
 }
 
 a:hover {
-  color: #2c3e33;
+  color: #1a4d2e;
+  text-decoration: underline;
 }
 
 /* Footer */
@@ -174,7 +313,7 @@ footer {
   color: #8a9a8a;
   font-size: 0.875rem;
   border-top: 1px solid #e8e4d8;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 /* Responsive design */
@@ -196,17 +335,41 @@ footer {
     padding: 2rem 1.5rem;
   }
   
+  .about-content {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+  
+  .profile-picture {
+    align-self: center;
+  }
+  
   .about-content h1,
-  .blog-content h1 {
+  .blog-content h1,
+  .teaching-content h1 {
     font-size: 2rem;
   }
   
-  .intro {
+  .intro,
+  .teaching-intro {
     font-size: 1.125rem;
   }
   
   .post-item {
     padding: 1.5rem;
+  }
+  
+  .teaching-section {
+    padding: 1.5rem;
+  }
+  
+  .teaching-gallery {
+    flex-direction: column;
+  }
+  
+  .gallery-item {
+    min-width: auto;
   }
 }
 
@@ -225,5 +388,20 @@ footer {
   
   .nav-links {
     gap: 1rem;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    font-size: 1.5rem;
+  }
+  
+  .teaching-section {
+    padding: 1rem;
+  }
+  
+  .image-placeholder {
+    height: 100px;
+    font-size: 1.5rem;
   }
 }

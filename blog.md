@@ -16,9 +16,6 @@ permalink: /blog.html
       <article class="post-item">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <time class="post-date">{{ post.date | date: "%B %-d, %Y" }}</time>
-        {% if post.excerpt %}
-          <p class="post-excerpt">{{ post.excerpt }}</p>
-        {% endif %}
       </article>
     {% endfor %}
   </div>
