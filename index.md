@@ -5,7 +5,7 @@ title: About
 
 <div class="about-content">
   <div class="profile-picture">
-    <img src="/assets/images/profile.jpg" alt="Simrit Dhanjal" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+    <img src="/assets/images/profile_photo.png" alt="Simrit Dhanjal" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
     <span style="display: none;">SD</span>
   </div>
   

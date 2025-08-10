@@ -249,81 +249,14 @@ main {
 }
 
 /* Blog page styles */
-.blog-content {
-  background-color: transparent;
-}
-
-.blog-content h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #1a4d2e;
-  margin-bottom: 1rem;
-  letter-spacing: -0.02em;
-}
-
-.blog-intro {
-  font-size: 1.125rem;
-  color: #2d7d4f;
-  margin-bottom: 3rem;
-  line-height: 1.6;
-}
-
-.posts-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  background-color: transparent;
-}
-
-.post-item {
-  padding: 1rem 0;
-  border-bottom: 1px solid #e8e4d8;
-  background-color: transparent;
-  border-radius: 0;
-  transition: none;
-}
-
-.post-item:last-child {
-  border-bottom: none;
-}
-
-.post-item:hover {
-  border-color: #e8e4d8;
-  box-shadow: none;
-  background-color: transparent;
-}
-
-.post-item h2 {
-  font-size: 1.125rem;
-  font-weight: 500;
-  margin-bottom: 0;
-  display: inline;
-}
-
-.post-item h2 a {
-  color: #1a4d2e;
-  text-decoration: none;
-}
-
-.post-item h2 a:hover {
-  color: #2d7d4f;
-  text-decoration: underline;
-}
-
-.post-date {
-  display: inline;
-  font-size: 0.875rem;
-  color: #8a9a8a;
-  margin-left: 1rem;
-  font-weight: 400;
-}
+/* Simple blog list - no complex styling needed */
 
 /* Links */
 a {
-  color: #2d7d4f;
+  color: #10af55;
   text-decoration: none;
   transition: color 0.2s ease;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 a:hover {
@@ -337,7 +270,7 @@ footer {
   padding: 3rem 2rem;
   color: #8a9a8a;
   font-size: 0.875rem;
-  background-color: transparent;
+  background-color: #f8f6f0;
   border: none;
 }
 
