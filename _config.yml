@@ -4,7 +4,6 @@ description: >- # this means newline insensitive in YAML
 baseurl: "" # for user site, keep empty
 url: "https://simritdhanjal.github.io" # your GitHub Pages URL
 
-theme: minima  # simple theme, customizable
 plugins:
   - jekyll-feed # for RSS feed
 

@@ -15,7 +15,7 @@ permalink: /blog.html
     {% for post in site.posts %}
       <article class="post-item">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <time class="post-date">{{ post.date | date: "%B %-d, %Y" }}</time>
+        <time class="post-date">{{ post.date | date: "%b %-d, %Y" }}</time>
       </article>
     {% endfor %}
   </div>
