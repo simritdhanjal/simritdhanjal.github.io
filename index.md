@@ -21,13 +21,13 @@ title: About
     </p>
 
     <p>Here’s a bit more about me:</p>
-    <ul>
-      <li>I hold a Bachelor’s degree in Artificial Intelligence from Carnegie Mellon University’s School of Computer Science.</li>
-      <li>Since 2018, I’ve been teaching competitive math at <a href="https://www.randommath.com/simrit-dhanjal" target="_blank" rel="noopener noreferrer">Random Math Inc.</a>, where I was also among their very first students in 2014.</li>
-      <li>When I’m not working, you’ll usually find me teaching, dancing, or hiking.</li>
-    </ul>
+      <ul style="padding-left: 30px;">
+        <li>I hold a Bachelor’s degree in Artificial Intelligence from Carnegie Mellon University’s School of Computer Science.</li>
+        <li>Since 2018, I’ve been teaching competitive math at <a href="https://www.randommath.com/simrit-dhanjal" target="_blank" rel="noopener noreferrer">Random Math Inc.</a>, where I was also among their very first students in 2014.</li>
+        <li>When I’m not working, you’ll usually find me teaching, dancing, or hiking.</li>
+      </ul>
 
-    <p>
+    <p style="margin-top: 2em;">
       Connect with me on <a href="https://linkedin.com/in/simrit-dhanjal" target="_blank" rel="noopener noreferrer">LinkedIn</a> or check out my <a href="/blog.html">blog</a> for my thoughts on AI, why I love teaching, and more.
     </p>
   </div>
