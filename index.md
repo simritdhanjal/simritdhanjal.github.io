@@ -21,7 +21,7 @@ title: About
     </p>
     
     <p>
-      Feel free to connect with me on <a href="https://linkedin.com/in/simritdhanjal" target="_blank" rel="noopener">LinkedIn</a> or check out my <a href="/blog.html">blog</a> for thoughts on technology and development.
+      Feel free to connect with me on <a href="https://linkedin.com/in/simrit-dhanjal" target="_blank" rel="noopener">LinkedIn</a> or check out my <a href="/blog.html">blog</a> for thoughts on technology and development.
     </p>
   </div>
 </div>
