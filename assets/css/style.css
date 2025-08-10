@@ -93,8 +93,8 @@ main {
 
 .profile-picture {
   flex-shrink: 0;
-  width: 180px;
-  height: 180px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   background-color: #e8e4d8;
   border: 3px solid #2d7d4f;
