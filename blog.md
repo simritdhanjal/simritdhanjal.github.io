@@ -8,7 +8,7 @@ permalink: /blog.html
   <h1>Blog</h1>
   
   <p class="blog-intro">
-    Thoughts on...
+    Reflections on technology, learning, and what drives us forward.
   </p>
   
   <div class="posts-list">
