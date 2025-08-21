@@ -4,7 +4,7 @@ title: "The Evolution of Education in the Age of AI"
 date: 2025-08-21
 excerpt: "The Evolution of Education in the Age of AI"
 ---
-# The Evolution of Education in the Age of AI
+# Knowledge at your fingertips doesn’t guarantee understanding.
 
 Imagine walking into a classroom where every student has a superintelligent assistant. This assistant can answer questions instantly, generate explanations, create personalized exercises, and offer feedback. At first, this seems amazing. After all, personalized learning for students may help all students learn equally well. 
 
