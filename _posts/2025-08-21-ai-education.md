@@ -18,8 +18,8 @@ What changes are the tools we have at our disposal and the consequences if we mi
 Learning is effortful, sometimes frustrating, and occasionally humbling. Yet a simple truth remains: we learn best when we struggle a little.
 
 Psychologists Daniel Kahneman and Amos Tversky distinguished between two modes of thought:
-* System 1: the fast, intuitive part of our brain
-* System 2: the slower, deliberate reasoning we engage when analyzing, practicing, and reflecting
+* **System 1**: the fast, intuitive part of our brain
+* **System 2**: the slower, deliberate reasoning we engage when analyzing, practicing, and reflecting
 Deep learning requires sustained engagement of System 2, allowing skills practiced deliberately to eventually become automatic in System 1. 
 
 Cognitive load theory (and, frankly, most of our experiences in college) shows that we cannot passively absorb complex concepts. Instead we need repetition, reflection, and challenge to commit knowledge into long-term memory. It’s why schools emphasize daily practice, weekly repetition, and a bit of a challenge to drive growth. 
